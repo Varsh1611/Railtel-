@@ -1,0 +1,78 @@
+<?php 
+include("session.php"); ?>
+<!doctype html>
+<html>
+<head>
+<title>about us page</title>
+<meta charset ="utf-8">
+<meta name ="viewport"
+content="width=device-width, initial-scale=1">
+<style>
+a img {
+    border-radius: 50%;
+    border: 4px double black;
+}
+a {
+    border-radius: 50%;
+}
+body {
+    Background-image: url('zz.jpg');
+    Background-repeat: no-repeat;
+    Background-attachment: fixed;
+    Background-position: 94% 70%;
+    margin: 0px;  padding: 0px;
+}
+h1 {
+    text-align: center;
+    margin: 0;
+    padding: 10px;
+    color: white;
+    background-color: purple;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0%;
+    overflow: hidden;
+    background-color: black;
+}
+li {
+    float: left;
+}
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+li a:hover {
+    background-color: purple;
+    color: black;
+}
+.active a {
+    background-color: grey;
+}
+p {
+    font-size: 25px;
+    font-family: cursive;
+    margin: 10px;
+    padding: 20px;
+}
+</style></head><body><h1><strong>Welcome To RailTel<br> <?php echo $_SESSION['username']; ?></strong></h1>
+<ul>
+<li><a href="homepage.php ">Home</a></li>
+<li class="active"><a href="about us.html ">About Us</a></li>
+<li><a href="nextpage.html">Dashboard</a></li>
+<li ><a href="logout.php">Logout</a></li>
+</ul>
+<pre><p>The main objective of the <strong>Railway Telecommunication 
+(RailTel) </strong>is to manage the details of Trains,Station,
+Fare,Booking. It manages all the information about 
+Train,Customer,Booking. The purpose of the project is
+ to build an application program to reduce the mannul 
+ work for managing the Trains,Timetable,customer 
+ station. It tracks all the details about the station,
+fare,booking.</pre></p>
+<body>
+</html>

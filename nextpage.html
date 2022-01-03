@@ -1,0 +1,122 @@
+<!doctype html>
+<html>
+<head>
+<meta charset ="utf-8">
+<meta name ="viewport"
+content="width=device-width, initial-scale=1">
+<style> 
+	 a img {
+	border-radius:50%;
+	border: 2px solid black;
+	
+}
+ a {border-radius:50%;
+ }
+body
+{
+
+margin:0px ;
+padding:0px;
+}
+
+h1{
+text-align: center; 
+margin:0 ;
+padding:10px;
+color: white;
+background-color: purple;
+}
+ul { 
+
+list-style-type: none;
+
+margin:0 ;
+padding:0%;
+overflow: hidden; 
+background-color: black;
+
+}
+li {
+float:left;
+}
+li a {display:block;
+color: white;
+text-align: center;
+padding: 14px;
+text-decoration: none;
+}
+li a:hover {
+background-color: purple;
+color: black;
+}
+.active a{
+background-color: grey;}
+
+		.can
+		{	width:1200px;
+			height:auto;
+			margin:20px;
+			display:grid;
+	
+			grid-gap:30px;
+			padding:10px;
+			box-sizing:border-box;
+			display:flex;
+			
+		}
+		.can .box
+		{	position:relative;
+			padding:20px 40px ;
+			text-align:center;
+			overflow:hidden;
+			border-radius:20px;
+			display:flex;
+			background:linear-gradient(45deg,pink,purple);
+		}
+		.box a
+		{ font-size:20px;
+		font-family:cursive;
+		color:black;
+		}
+</style>
+</head>
+<body>
+<h1>
+<strong> Welcome To RailTel</strong></h1>
+
+<ul >
+<li><a href="homepage.php ">Home</a>
+</li>
+<li><a href="about us.html ">About Us</a>
+</li>
+<li class="active"><a href="nextpage.html">Dashboard</a>
+</li>
+
+<li ><a href="logout.php">Logout</a>
+</li>
+
+</ul>
+<div class="can">
+<div class="box">
+<p><a href="planmyjourney.php">
+	<img src="plan my journey.jpg" alt="plan my journey" width="75px" height="75px" br>Plan My Journey</a></p>
+	</div>
+		<div class="box">
+<p>	<a href="booking.php"><img src="booking.jpg" alt="booking" width="75px"   height="75px">Booking</a>
+</div>
+
+
+  
+  <div class="box">
+ <p> 	<a href="cancelation form.html"><img src="ticket cancel.jpg" alt="ticket cancel" width="75px"  height="75px">Cancel Ticket </a></p>
+ </div>
+ 
+ <div class="box">
+<p><a href="refund.html"><img src="refund history.jpg" alt="refund history" width="75px"   height="75px">Refund </a></p>
+</div>
+
+ <div class="box">
+ <p> <a href="payment.php"><img src="vv.jpg" alt="make payment" width="75px"   height="75px">Make payment</a></p>
+</div></div>
+</body>
+</html>
